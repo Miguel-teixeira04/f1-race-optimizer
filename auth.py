@@ -74,8 +74,8 @@ def initialize_default_users():
 if __name__ == "__main__":
     # Initialize default users
     if initialize_default_users():
-        print("✓ Default users created:")
-        print("  Username: admin | Password: admin123")
-        print("  Username: demo  | Password: demo123")
+        print("")
+       
     else:
         print("Users already exist")
+
